@@ -3,7 +3,7 @@
 """
 Created on Tue May 10 21:07:23 2022
 
-@author: gabriel
+@author: Gabriel Green
 """
 
 import pandas as pd
@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 from sklearn.metrics import plot_confusion_matrix
 
-data = pd.read_csv('/users/gabriel/desktop/health_first/covid_hospitalization_data.csv')
+data = pd.read_csv('covid_hospitalization_data.csv')
 
 # Encode categorical variables
 data['Case_Severity_Enc'] = data['Case_Severity']
